@@ -432,6 +432,11 @@ img::-moz-selection {
   z-index: 2;
 }
 
+.bigtext {
+  max-width: 300px;
+  margin-bottom: 36px;
+}
+
 
 input[type=e-mail] {
     border: 2px solid #4A90E2;

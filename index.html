@@ -71,6 +71,8 @@
                 <img src="img/logo_large.png">
                 <h1 id="homeHeading">Roo Mobile</h1>
                 <hr>
+                <img class="bigtext" src="img/rooequals.png">
+                <br>
                 <a href="#contact" class="btn btn-primary btn-xl page-scroll">GET STARTED</a>
             </div>
         </div>
@@ -83,7 +85,7 @@
                     <h2 class="section-heading">With freedom comes responsibility</h2>
                     <img class="family sr-family" src="img/family.png">
                     <hr class="light">
-                    <h3 class="text-faded">Roo = A phone plan for kids + An app for parents</h3>
+                    <h3 class="text-faded">Roo offers phones and plans specially tailored to kids and teens, combined with the world's best parental control app.</h3>
                 </div>
             </div>
         </div>
@@ -212,12 +214,30 @@
                     <p>Roo Mobile is launching soon. <br> Please submit your e-mail address, and we will contact you when the service is available.</p>
                     <form><input type="e-mail" name="email" placeholder="e-mail address"></form>
                     <br>   
-                    <a href="#about" class="btn btn-primary btn-xl page-scroll">SUBMIT</a>
+                    <a class="btn btn-primary btn-xl page-scroll" data-toggle="modal" data-target="#thanks">SUBMIT</a>
                 </div>
             </div>
         </div>
     </section>
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="thanks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Thanks!</h4>
+      </div>
+      <div class="modal-body">
+        We'll let you know when Roo is available.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
