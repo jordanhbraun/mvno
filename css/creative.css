@@ -423,9 +423,11 @@ img::-moz-selection {
 
 .plan {
   padding-top: 24px;
+  padding-bottom: 24px;
   background-color: white;
   border-radius: 24px;
-  color: #222222
+  color: #222222;
+  margin-bottom: 24px;
 }
 
 .plan:hover {
