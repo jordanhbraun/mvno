@@ -33,9 +33,10 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
+  letter-spacing: -.5px;
 }
 .bg-primary {
   background-color: #4A90E2;
@@ -435,7 +436,7 @@ img::-moz-selection {
 }
 
 .bigtext {
-  max-width: 300px;
+  max-width: 600px;
   margin-bottom: 36px;
 }
 
