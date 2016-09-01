@@ -423,6 +423,7 @@ img::-moz-selection {
 }
 
 .plan {
+  min-height: 600px;
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: white;
