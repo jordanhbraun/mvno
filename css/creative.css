@@ -216,11 +216,11 @@ header .header-content .header-content-inner p {
 }
 .service-box {
   max-width: 400px;
-  margin: 50px auto 0;
+  margin: 50px auto 56px;
 }
 @media (min-width: 992px) {
   .service-box {
-    margin: 20px auto 0;
+    margin: 56px auto 106px;
   }
 }
 .service-box p {
@@ -415,7 +415,7 @@ img::-moz-selection {
 }
 
 .app {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .family {
@@ -423,17 +423,26 @@ img::-moz-selection {
 }
 
 .plan {
-  min-height: 600px;
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: white;
+  border: 6px solid #fefefe;
   border-radius: 24px;
-  color: #222222;
-  margin-bottom: 24px;
+  color: #fefefe;
+  margin-bottom: 36px;  
+}
+
+.plan-primary {
+  padding: 24px 24px 36px 24px;
+  border: 6px solid #fefefe;
+  border-radius: 24px
 }
 
 .plan:hover {
   z-index: 2;
+}
+
+.long {
+  min-height: 700px;
 }
 
 .bigtext {
@@ -442,14 +451,16 @@ img::-moz-selection {
 }
 
 
-input[type=e-mail] {
+input[type=email] {
     border: 2px solid #4A90E2;
     border-radius: 36px;
     background-color: white;
     opacity: .8;
+    min-width: 360px;
     color: black;
     font-size: 24px;
     padding: 4px 8px 4px 8px;
+    margin-bottom: 24px
 }
 
 body {
