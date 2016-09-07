@@ -21,6 +21,8 @@
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" href="devices.min.css" type="text/css">
+
 
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
@@ -31,6 +33,18 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-81608098-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 
     <!-- Start Visual Website Optimizer Asynchronous Code -->
     <script type='text/javascript'>
@@ -130,7 +144,10 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
-                    <img class="app" src="img/Android.png">
+                    <video id = "sample" width="320" height="600" autoplay autobuffer onended="run()">
+                      <source src="movie1.mov">
+                    Your browser does not support the video tag.
+                    </video>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="service-box">
@@ -445,6 +462,19 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <script type="text/javascript">
+        video_count =1;
+videoPlayer = document.getElementById("sample");
+
+function run(){
+        video_count++;
+        if (video_count == 3) video_count = 1;
+        var nextVideo = "movie"+video_count+".mov";
+        videoPlayer.src = nextVideo;
+        videoPlayer.play();
+   };
+    </script>
 
 </body>
 
