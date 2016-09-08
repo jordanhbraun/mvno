@@ -458,8 +458,8 @@ input[type=email] {
     opacity: .8;
     min-width: 360px;
     color: black;
-    font-size: 24px;
-    padding: 4px 8px 4px 8px;
+    font-size: 20px;
+    padding: 4px 20px 4px 20px;
     margin-bottom: 24px
 }
 
